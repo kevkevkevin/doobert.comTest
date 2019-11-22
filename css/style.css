@@ -117,6 +117,12 @@ li.nav-item.active {
     padding-bottom: 40px;
 }
 
+.services2 {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
 .icons1 {
     display: flex;
     list-style: none;
@@ -392,7 +398,7 @@ th, td {
   }
   
   .table100.ver2 td {
-    font-family: Lato-Regular;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
     color: #808080;
     line-height: 1.4;
@@ -509,4 +515,69 @@ footer ul{
 
 .close {
   display: none;
+}
+
+.alertSection {
+  margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 764px){
+  body {
+    overflow-x: hidden;
+  }
+  .googleAds2 {
+    display: none;
+  }
+  .searchBar {
+    width: 100%;
+    position: relative;
+    left: 0;
+    padding: 0 35px;
+  }
+  .searchContainer input {
+    width: 100%;
+    
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .d-flex {
+    justify-content: center;
+  }
+
+  .quickLink {
+    padding: 30px 0;
+  }
+
+  .services,.services2 {
+    width: 100%;
+  }
+  .navIcon a:nth-child(1)::before {
+    border-right: none;
+  }
+
+  .table100.ver2 th {
+    font-size: 12px;
+  }
+
+  .column1 {
+    padding-left: 10px;
+  }
+
+  td img {
+    width: 52px;
+  }
+
+  .table100.ver2 td {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+  }
+  
+  .alertSection p {
+    text-align: center;
+  }
+
 }
